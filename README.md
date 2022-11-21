@@ -1,6 +1,4 @@
-<p align="center">
-    <img src="https://i.postimg.cc/wM03CSP6/07bc58660f1011cecfdc30809a4ddb15.gif" width="100%" style="margin-left: auto;margin-right: auto;display: block;">
-</p>
+<p align="center"><img hight="600" width="400" alt="GIF" align="center" src="https://dl.kaskus.id/i.gyazo.com/0a621eb32bae998c60f17370c3061e8f.gif"/></p>
 
 <h1 align="center">Suit Game</h1>
 
