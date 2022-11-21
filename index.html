@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/gambar_icon.png">
+    <title>Games</title> 
+</head>
+<body>
+    
+    <div class="cover">
+    	<div class="mar">
+    		<marquee  scrollamount="5">Dibuat oleh haki masih 70%</marquee>
+    	</div>
+        <div class="content">
+            <div class="top">
+                <div class="fixed2"></div>
+                <span>
+                    <h1>Lawan : <span id="lawan">-</span></h1>
+                </span>
+                <span>
+                    <h1 id="t">-</h1>
+                </span>
+                <span>
+                    <h1>Kamu : <span id="kamu">-</span></h1>
+                </span>
+            </div>
+            <div class="jari kiri">
+                <img src="" alt="">
+            </div>
+            <div class="ket">
+                <img src="" alt="">
+            </div>
+            <div class="jari kanan">
+                <img src="" alt="">
+
+            </div>
+
+            <div class="pilihan">
+                <div class="fixed">
+                    <button onclick="return window.location.reload()">Main Lagi</button>
+                </div>
+                
+                <span data-pilihan="batu" id="batu" onclick="play_games(random_pilihan,this.getAttribute('data-pilihan'))"><img src="img/batu.png" alt="" ></span>
+                <span data-pilihan="gunting" id="gunting" onclick="play_games(random_pilihan,this.getAttribute('data-pilihan'))"><img src="img/gunting.png" alt="" ></span>
+                <span data-pilihan="kertas" id="kertas" onclick="play_games(random_pilihan,this.getAttribute('data-pilihan'))"><img src="img/kertas.png" alt="" ></span>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
